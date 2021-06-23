@@ -1,0 +1,21 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-size: 50px;
+}
+.name-highlight{
+    color: #7936d8;
+}
+.description{
+    font-size: 20px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 100%;
+}
