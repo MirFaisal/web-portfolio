@@ -75,3 +75,36 @@ img {
   transition: all 0.5s;
   letter-spacing: 1.5px;
 }
+.experience-area {
+  display: flex;
+  flex-wrap: nowrap;
+  background: url("../images/exp-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.half-width-experience {
+  height: 400px;
+  width: 800px;
+  margin-left: 5%;
+  background: white;
+  box-shadow: 10px 10px 40px grey;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+.orange-highlighter {
+  color: orange;
+}
+#full-Stack {
+  border-left: 7px solid;
+  border-image: linear-gradient(120deg, orange 0%, lightsalmon 100%);
+  border-image-slice: 1;
+}
+#baby-dev {
+  border-left: 7px solid;
+  border-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
+  border-image-slice: 1;
+}
+footer p{
+  text-align: center;
+  margin-top: 50px;
+}
